@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="prac5.css">
+    <title>Registration</title>
+</head>
+<body>
+    <center><h1>Registration!!!</h1></center><hr>
+    <form>
+        <center><h2>PERSONAL INFORMATION</h2></center>
+         <div class="nameReq">
+         Name:<input type="text" name="yourname"/><br><br>
+         </div>
+         Email Id:<input type="text" name="youremail"/><br><br>
+         Mobile No.:<input type="number" name="yourmobile"/><br><br>
+         Date Of Birth:<input type="number" name="your name"/><br><br><br><hr>
+
+         <center><h2>EDUCATIONAL INFORMATION</h2></center>
+         Enter Grades:<br><br>
+         X:<br><input type="float" name="ugrade"/><br>
+         XII:<br><input type="float" name="urgrade"/><br><br>
+         College Name/School Name:<input type="text" name="collge"/><br><br>
+         Institute State:
+         <select name="state">
+            <option value="Maharashtra" selected>Maharashtra</option>
+            <option value="Delhi" selected>Delhi</option>
+            <option value="Haryana" selected>Haryana</option>
+            <option value="Uttar Pradesh" selected>Uttar Pradesh</option>
+            <option value="Bihar" selected>Bihar</option>
+            <option value="rajasthan" selected>rajasthan</option>
+            <option value="Gujarat" selected>Gujarat</option>
+         </select>
+         <br><br>
+         Qualification level:
+         <select name="level">
+            <option value="Under Graduate" selected>Under Graduate</option>
+            <option value="Post Graduate" selected>Post Graduate</option>
+            <option value="XII Passed" selected>XII Passed</option>
+         </select><hr>
+         
+
+         <center><h2>COURSE OFFERED</h2></center>
+         <label for="Choose available courses">Choose available couses:</label><br><br>
+         <input type="radio" name="Choose available courses" value="Google project management"/> Google project management<br>
+         <input type="radio" name="Choose available courses" value="Google data analytics"/>Google data analytics<br>
+         <input type="radio" name="Choose available courses" value="Google UX design"/> Google UX design<br>
+         <input type="radio" name="Choose available courses" value="Google IT support"/>Google IT support<br>
+         <input type="radio" name="Choose available courses" value="Digital Marketing & E-commerce"/> Digital Marketing & E-commerce<br>
+         <input type="radio" name="Choose available courses" value="Machine Learning"/> Machine Learning<br><br>
+
+        Duration of course:<br>
+        <select name="duration">
+            <option value="4 weeks" selected>4 weeks</option><br>
+            <option value="8 weeks" selected>8 weeks</option><br>
+            <option value="12 weeks" selected>12 weeks</option><br>
+            
+        </select><hr>
+
+         
+         <center><h2>PAYMENT DETAILS</h2></center>
+         Mode of payment:
+         <select name="payment methods">
+            <option value="Card" selected>Card payment</option>
+            <option value="UPI" selected>UPI</option>
+         </select>
+         </div>
+
+
+    </form>
+</body>
+</html>
